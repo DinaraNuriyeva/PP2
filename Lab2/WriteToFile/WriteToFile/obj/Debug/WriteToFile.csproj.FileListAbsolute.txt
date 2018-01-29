@@ -1,0 +1,7 @@
+C:\Users\Admin\source\repos\WriteToFile\WriteToFile\bin\Debug\WriteToFile.exe.config
+C:\Users\Admin\source\repos\WriteToFile\WriteToFile\bin\Debug\WriteToFile.exe
+C:\Users\Admin\source\repos\WriteToFile\WriteToFile\bin\Debug\WriteToFile.pdb
+C:\Users\Admin\source\repos\WriteToFile\WriteToFile\obj\Debug\WriteToFile.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\repos\WriteToFile\WriteToFile\obj\Debug\WriteToFile.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\WriteToFile\WriteToFile\obj\Debug\WriteToFile.exe
+C:\Users\Admin\source\repos\WriteToFile\WriteToFile\obj\Debug\WriteToFile.pdb

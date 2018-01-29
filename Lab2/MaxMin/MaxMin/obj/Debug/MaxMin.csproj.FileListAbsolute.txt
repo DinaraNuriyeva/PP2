@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\MaxMin\MaxMin\bin\Debug\MaxMin.exe.config
+C:\Users\Admin\source\repos\MaxMin\MaxMin\bin\Debug\MaxMin.exe
+C:\Users\Admin\source\repos\MaxMin\MaxMin\bin\Debug\MaxMin.pdb
+C:\Users\Admin\source\repos\MaxMin\MaxMin\obj\Debug\MaxMin.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\repos\MaxMin\MaxMin\obj\Debug\MaxMin.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\MaxMin\MaxMin\obj\Debug\MaxMin.exe
+C:\Users\Admin\source\repos\MaxMin\MaxMin\obj\Debug\MaxMin.pdb
+C:\Users\Admin\Desktop\pp2\Lab2\MaxMin\MaxMin\bin\Debug\MaxMin.exe.config
+C:\Users\Admin\Desktop\pp2\Lab2\MaxMin\MaxMin\bin\Debug\MaxMin.exe
+C:\Users\Admin\Desktop\pp2\Lab2\MaxMin\MaxMin\bin\Debug\MaxMin.pdb
+C:\Users\Admin\Desktop\pp2\Lab2\MaxMin\MaxMin\obj\Debug\MaxMin.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\pp2\Lab2\MaxMin\MaxMin\obj\Debug\MaxMin.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\pp2\Lab2\MaxMin\MaxMin\obj\Debug\MaxMin.exe
+C:\Users\Admin\Desktop\pp2\Lab2\MaxMin\MaxMin\obj\Debug\MaxMin.pdb

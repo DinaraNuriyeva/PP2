@@ -1,0 +1,6 @@
+C:\Users\Admin\source\repos\FileInfo1\FileInfo1\bin\Debug\FileInfo1.exe.config
+C:\Users\Admin\source\repos\FileInfo1\FileInfo1\bin\Debug\FileInfo1.exe
+C:\Users\Admin\source\repos\FileInfo1\FileInfo1\bin\Debug\FileInfo1.pdb
+C:\Users\Admin\source\repos\FileInfo1\FileInfo1\obj\Debug\FileInfo1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\FileInfo1\FileInfo1\obj\Debug\FileInfo1.exe
+C:\Users\Admin\source\repos\FileInfo1\FileInfo1\obj\Debug\FileInfo1.pdb

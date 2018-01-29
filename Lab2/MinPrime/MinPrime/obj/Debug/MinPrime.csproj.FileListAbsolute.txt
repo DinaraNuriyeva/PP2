@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\MinPrime\MinPrime\bin\Debug\MinPrime.exe.config
+C:\Users\Admin\source\repos\MinPrime\MinPrime\bin\Debug\MinPrime.exe
+C:\Users\Admin\source\repos\MinPrime\MinPrime\bin\Debug\MinPrime.pdb
+C:\Users\Admin\source\repos\MinPrime\MinPrime\obj\Debug\MinPrime.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\repos\MinPrime\MinPrime\obj\Debug\MinPrime.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\MinPrime\MinPrime\obj\Debug\MinPrime.exe
+C:\Users\Admin\source\repos\MinPrime\MinPrime\obj\Debug\MinPrime.pdb
+C:\Users\Admin\Desktop\pp2\Lab2\MinPrime\MinPrime\bin\Debug\MinPrime.exe.config
+C:\Users\Admin\Desktop\pp2\Lab2\MinPrime\MinPrime\bin\Debug\MinPrime.exe
+C:\Users\Admin\Desktop\pp2\Lab2\MinPrime\MinPrime\bin\Debug\MinPrime.pdb
+C:\Users\Admin\Desktop\pp2\Lab2\MinPrime\MinPrime\obj\Debug\MinPrime.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\pp2\Lab2\MinPrime\MinPrime\obj\Debug\MinPrime.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\pp2\Lab2\MinPrime\MinPrime\obj\Debug\MinPrime.exe
+C:\Users\Admin\Desktop\pp2\Lab2\MinPrime\MinPrime\obj\Debug\MinPrime.pdb

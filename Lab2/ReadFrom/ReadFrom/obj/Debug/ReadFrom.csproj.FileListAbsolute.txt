@@ -1,0 +1,7 @@
+C:\Users\Admin\source\repos\ReadFrom\ReadFrom\bin\Debug\ReadFrom.exe.config
+C:\Users\Admin\source\repos\ReadFrom\ReadFrom\bin\Debug\ReadFrom.exe
+C:\Users\Admin\source\repos\ReadFrom\ReadFrom\bin\Debug\ReadFrom.pdb
+C:\Users\Admin\source\repos\ReadFrom\ReadFrom\obj\Debug\ReadFrom.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\repos\ReadFrom\ReadFrom\obj\Debug\ReadFrom.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\ReadFrom\ReadFrom\obj\Debug\ReadFrom.exe
+C:\Users\Admin\source\repos\ReadFrom\ReadFrom\obj\Debug\ReadFrom.pdb

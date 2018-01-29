@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\DirectoryInfo\DirectoryInfo\bin\Debug\DirectoryInfo.exe.config
+C:\Users\Admin\source\repos\DirectoryInfo\DirectoryInfo\bin\Debug\DirectoryInfo.exe
+C:\Users\Admin\source\repos\DirectoryInfo\DirectoryInfo\bin\Debug\DirectoryInfo.pdb
+C:\Users\Admin\source\repos\DirectoryInfo\DirectoryInfo\obj\Debug\DirectoryInfo.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\repos\DirectoryInfo\DirectoryInfo\obj\Debug\DirectoryInfo.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\DirectoryInfo\DirectoryInfo\obj\Debug\DirectoryInfo.exe
+C:\Users\Admin\source\repos\DirectoryInfo\DirectoryInfo\obj\Debug\DirectoryInfo.pdb
+C:\Users\Admin\Desktop\pp2\Lab2\DirectoryInfo\DirectoryInfo\bin\Debug\DirectoryInfo.exe.config
+C:\Users\Admin\Desktop\pp2\Lab2\DirectoryInfo\DirectoryInfo\bin\Debug\DirectoryInfo.exe
+C:\Users\Admin\Desktop\pp2\Lab2\DirectoryInfo\DirectoryInfo\bin\Debug\DirectoryInfo.pdb
+C:\Users\Admin\Desktop\pp2\Lab2\DirectoryInfo\DirectoryInfo\obj\Debug\DirectoryInfo.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\pp2\Lab2\DirectoryInfo\DirectoryInfo\obj\Debug\DirectoryInfo.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\pp2\Lab2\DirectoryInfo\DirectoryInfo\obj\Debug\DirectoryInfo.exe
+C:\Users\Admin\Desktop\pp2\Lab2\DirectoryInfo\DirectoryInfo\obj\Debug\DirectoryInfo.pdb
