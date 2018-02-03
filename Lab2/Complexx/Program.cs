@@ -10,7 +10,7 @@ namespace Complexx
     {
         public int a;
         public int b;
-        public int GCD(int x, int y) //заводим конструктор для гцд
+        public int GCD(int x, int y)
         {
             while (x != y)
             {
@@ -33,11 +33,11 @@ namespace Complexx
 
         }
 
-        public Complex()//Пустой конструктор нужен потомучто когда мы создаем новый коплекс ничего не передаем
+        public Complex()//Пустой конструктор нужен потомучто когда мы создаем новый экземпляр ничего не передаем
         {
         }
 
-        public void Simple()//Создаем конструктор для сокращения
+        public void Simple()
         {
             int z = GCD(this.a, this.b);
             this.a = this.a / z;
@@ -48,6 +48,14 @@ namespace Complexx
         {
             Complex m = new Complex();
             m.a = c1.a * c2.b + c2.a * c1.b;
+            m.b = c1.b * c2.b;
+            m.Simple();
+            return m;
+        }
+        public static Complex operator -(Complex c1, Complex c2)
+        {
+            Complex m  = new Complex();
+            m.a = c1.a * c2.b -c2.a * c1.b;
             m.b = c1.b * c2.b;
             m.Simple();
             return m;
@@ -63,9 +71,11 @@ namespace Complexx
         {
             Complex c1 = new Complex(2, 4);
             Complex c2 = new Complex(5, 2);
-            Complex result = c1 + c2;
+            Complex add = c1 + c2;
+            Complex sub = c1 - c2;
 
-            Console.WriteLine(result);
+            Console.WriteLine(add);
+            Console.WriteLine(sub);
             Console.ReadKey();
         }
     }
