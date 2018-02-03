@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Circle", "Circle\Circle.csproj", "{66D43CCB-65E2-4A1D-ACC3-6FDDFED7AED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student", "Student\Student.csproj", "{333D2765-1793-4570-A940-4D15D7C98C73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student1", "Student1\Student1.csproj", "{0F91D908-27C9-4294-BB4F-467062F73D32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66D43CCB-65E2-4A1D-ACC3-6FDDFED7AED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D43CCB-65E2-4A1D-ACC3-6FDDFED7AED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D43CCB-65E2-4A1D-ACC3-6FDDFED7AED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D43CCB-65E2-4A1D-ACC3-6FDDFED7AED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{333D2765-1793-4570-A940-4D15D7C98C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{333D2765-1793-4570-A940-4D15D7C98C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{333D2765-1793-4570-A940-4D15D7C98C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{333D2765-1793-4570-A940-4D15D7C98C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F91D908-27C9-4294-BB4F-467062F73D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F91D908-27C9-4294-BB4F-467062F73D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F91D908-27C9-4294-BB4F-467062F73D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F91D908-27C9-4294-BB4F-467062F73D32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A015F97-B1FF-4A7A-A4BD-9E58E9827C01}
+	EndGlobalSection
+EndGlobal

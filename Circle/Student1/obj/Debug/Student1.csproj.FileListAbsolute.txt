@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\PP2\PP2\Circle\Student1\bin\Debug\Student1.exe.config
+C:\Users\Admin\Documents\PP2\PP2\Circle\Student1\bin\Debug\Student1.exe
+C:\Users\Admin\Documents\PP2\PP2\Circle\Student1\bin\Debug\Student1.pdb
+C:\Users\Admin\Documents\PP2\PP2\Circle\Student1\obj\Debug\Student1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\PP2\PP2\Circle\Student1\obj\Debug\Student1.exe
+C:\Users\Admin\Documents\PP2\PP2\Circle\Student1\obj\Debug\Student1.pdb
