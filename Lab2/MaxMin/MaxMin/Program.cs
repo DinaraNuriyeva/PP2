@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace MaxMin
 {
@@ -13,8 +14,9 @@ namespace MaxMin
         static void Main(string[] args)
 
         {
-
-            string text = System.IO.File.ReadAllText(@"C:\Users\Admin\Desktop\pp2\Lab2\MaxMin\MaxMin\bin\Debug\input.txt"); //Читаем текст
+            FileStream fs = new FileStream(@"C:\Users\Admin\Desktop\pp2\Lab2\MaxMin\MaxMin\bin\Debug\input.txt", FileMode.Open,FileAccess.Read);
+            StreamReader sr = new StreamReader(fs);
+            //string text = System.IO.File.ReadAllText(@"C:\Users\Admin\Desktop\pp2\Lab2\MaxMin\MaxMin\bin\Debug\input.txt"); //Читаем текст
 
             args = text.Split(); //сплитим текст
 

@@ -18,7 +18,7 @@ namespace far2
         Stack<Layer> layerHistory = new Stack<Layer>();
         Layer activeLayer;
         FarMode mode = FarMode.Explorer;//изначально режим просмотра
-       
+        private readonly int i;
 
         public FAR(string path)
         {
@@ -56,9 +56,9 @@ namespace far2
 
         private void DrawFileReader() 
         {
-            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.BackgroundColor = ConsoleColor.Magenta;
             Console.Clear();
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.Gray;
             FileStream fs = null;
             StreamReader sr = null;
             try
@@ -67,6 +67,8 @@ namespace far2
                 sr = new StreamReader(fs);
 
                 Console.WriteLine(sr.ReadToEnd());
+                //long size = new long  System.IO.FileInfo(activeLayer.items[i].GetType().FullName).Lenth;
+
 
             }
             catch (Exception e)
@@ -90,7 +92,7 @@ namespace far2
 
         private void DrawExplorer()
         {
-            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.BackgroundColor = ConsoleColor.DarkRed;
             Console.ForegroundColor = ConsoleColor.White;
             Console.Clear();
 
@@ -98,11 +100,11 @@ namespace far2
             {
                 if (i == activeLayer.index)
                 {
-                    Console.BackgroundColor = ConsoleColor.Cyan;
+                    Console.BackgroundColor = ConsoleColor.Green;
                 }
                 else
                 {
-                    Console.BackgroundColor = ConsoleColor.Blue;
+                    Console.BackgroundColor = ConsoleColor.DarkGreen;
                 }
 
                 if (activeLayer.items[i].GetType() == typeof(DirectoryInfo))
@@ -113,8 +115,9 @@ namespace far2
                 {
                     Console.ForegroundColor = ConsoleColor.Yellow;
                 }
-
+                
                 Console.WriteLine(activeLayer.items[i].Name);
+                
             }
         }
 
@@ -205,7 +208,7 @@ namespace far2
     {
         static void Main(string[] args)
         {
-            //Environment.GetLogicalDrives();
+            
             Console.SetWindowSize(40, 40);
             FAR far = new FAR(@"C:\WebServers");
 

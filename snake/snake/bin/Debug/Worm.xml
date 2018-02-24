@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Worm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <body>
+    <Point>
+      <X>6</X>
+      <Y>22</Y>
+    </Point>
+    <Point>
+      <X>6</X>
+      <Y>21</Y>
+    </Point>
+    <Point>
+      <X>6</X>
+      <Y>20</Y>
+    </Point>
+  </body>
+  <DX>0</DX>
+  <DY>1</DY>
+</Worm>

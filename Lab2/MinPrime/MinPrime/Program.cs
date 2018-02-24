@@ -14,7 +14,7 @@ namespace MinPrime
 
         {
             List<int> Primes = new List<int>();//лист праймов
-            string text = File.ReadAllText(@"C:\Users\Admin\Desktop\pp2\Lab2\MinPrime\MinPrime\bin\Debug\input.txt");//читаем тескт из файла в стринг
+            string text = File.ReadAllText(@"C:\Users\Admin\Documents\PP2\PP2\Lab2\MinPrime\MinPrime\bin\Debug\input.txt");//читаем тескт из файла в стринг
             string[] a = text.Split(' ');//сплитим этот текст и закидываем в массив
             int[] n = new int[a.Count()];//заводим массив интов
 
@@ -43,10 +43,10 @@ namespace MinPrime
 
             if (Primes.Count == 0)//если лист пустой  
             {
-                File.WriteAllText(@"C:\Users\Admin\Desktop\pp2\Lab2\MinPrime\MinPrime\bin\Debug\output.txt", "There are no primes");
+                File.WriteAllText(@"C:\Users\Admin\Documents\PP2\PP2\Lab2\MinPrime\MinPrime\bin\Debug\output.txt", "There are no primes");
             } else
             {
-                File.WriteAllText(@"\C:\Users\Admin\Desktop\pp2\Lab2\MinPrime\MinPrime\bin\Debug\output.txt", Convert.ToString(Primes.Min()));
+                File.WriteAllText(@"C:\Users\Admin\Documents\PP2\PP2\Lab2\MinPrime\MinPrime\bin\Debug\output.txt", Convert.ToString(Primes.Min()));
 
             }
             //Console.WriteLine(Primes.Min());
@@ -56,7 +56,7 @@ namespace MinPrime
             {
                 if (Primes.Count > 0)
                 {
-                    File.WriteAllText(@"C:\Users\Admin\Desktop\pp2\Lab2\MinPrime\MinPrime\bin\Debug\output.txt", Convert.ToString(Primes[i]));
+                    File.WriteAllText(@"C:\Users\Admin\Documents\PP2\PP2\Lab2\MinPrime\MinPrime\bin\Debug\output.txt", Convert.ToString(Primes[i]));
 
                 }
                 break;
