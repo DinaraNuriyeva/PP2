@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\PP2\PP2\SnakeXD\SnakeXD\bin\Debug\SnakeXD.exe.config
+C:\Users\Admin\Documents\PP2\PP2\SnakeXD\SnakeXD\bin\Debug\SnakeXD.exe
+C:\Users\Admin\Documents\PP2\PP2\SnakeXD\SnakeXD\bin\Debug\SnakeXD.pdb
+C:\Users\Admin\Documents\PP2\PP2\SnakeXD\SnakeXD\obj\Debug\SnakeXD.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PP2\PP2\SnakeXD\SnakeXD\obj\Debug\SnakeXD.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\PP2\PP2\SnakeXD\SnakeXD\obj\Debug\SnakeXD.exe
+C:\Users\Admin\Documents\PP2\PP2\SnakeXD\SnakeXD\obj\Debug\SnakeXD.pdb

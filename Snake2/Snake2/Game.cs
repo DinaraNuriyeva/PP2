@@ -11,23 +11,29 @@ namespace Snake2
     {
         First,
         Second,
-        Bonus
+        Third,
+        
     }
 
     class Game
     {
-        public static int speed = 300;
+        public static int speed = 200;
         public static int boardW = 100;
         public static int boardH = 35;
+        
 
         bool[,] field = new bool[10, 10];
         Random r = new Random();
+        Score s = new Score();
+       
+       
         Worm worm;
         Food food;
         Wall wall;
         public bool isAlive;
 
         GameLevel gameLevel;
+        
 
         List<GameObject> g_objects = new List<GameObject>();
 
@@ -38,36 +44,93 @@ namespace Snake2
             Console.CursorVisible = false;
         }
 
+        
+       
+       
         public Game()
         {
             isAlive = true;
-            gameLevel = GameLevel.First;
+
+
 
             worm = new Worm(new Point { X = 10, Y = 10 },
-                            ConsoleColor.White, '*');
+                           ConsoleColor.Green, '■');
             food = new Food(new Point { X = r.Next(0, 34), Y = r.Next(0, 34) },
-                          ConsoleColor.Red, '6');
-            wall = new Wall(null, ConsoleColor.White, '#');
-
-            wall.LoadLevel(GameLevel.First);
-
-            g_objects.Add(worm);
-            g_objects.Add(food);
-            g_objects.Add(wall);
+                          ConsoleColor.Red, '$');
+            wall = new Wall(null, ConsoleColor.DarkBlue, '■');
+            
+            ChangeLvL();
+            
+          g_objects.Add(worm);
+           g_objects.Add(food);
+           g_objects.Add(wall);
         }
+
 
         public void Start()
         {
             ThreadStart ts = new ThreadStart(Draw);
             Thread t = new Thread(ts);
             t.Start();
+           
         }
+        public void Lvl2()
+        {
+            Console.Clear();
+            //gameLevel = 2;
+            wall.LoadLevel(2);
+
+
+        }
+
+        public void Lvl1()
+        {
+            Console.Clear();
+            //gameLevel = 2;
+            wall.LoadLevel(1);
+
+
+        }
+        public void ChangeLvL()
+        {
+            if (worm.body.Count()==1)
+            {
+                Lvl1();
+            }
+            if ((worm.body.Count()) >= 2)
+            {
+                Lvl2();
+
+            }
+        }
+
+
 
         public void Draw()
         {
+           
             while (true)
             {
+
+                
                 worm.Move();
+                if (worm.body[0].Y > boardH - 1)
+                {
+
+                    worm.body[0].Y = 0;
+                }
+                if (worm.body[0].Y < 0)
+                {
+                    worm.body[0].Y = boardH - 1;
+                }
+                if (worm.body[0].X > boardW - 1)
+                {
+                    worm.body[0].X = 0;
+                }
+                if (worm.body[0].X < 0)
+                {
+                    worm.body[0].X = boardW - 1;
+                }
 
                 if (worm.body[0].Equals(food.body[0]))
                 {
@@ -93,8 +156,11 @@ namespace Snake2
                 foreach (GameObject g in g_objects)
                 {
                     g.Draw();
+                    s.DrawScore("Score is:" + ((worm.body.Count())-1));
                 }
                 Thread.Sleep(Game.speed);
+
+                
             }
         }
 
@@ -105,25 +171,47 @@ namespace Snake2
 
         public void Process(ConsoleKeyInfo pressedButton)
         {
+           
             switch (pressedButton.Key)
             {
                 case ConsoleKey.UpArrow:
+                    worm.Clear();
                     worm.DX = 0;
                     worm.DY = -1;
+                   worm.Draw();
+                    wall.Draw();
                     break;
                 case ConsoleKey.DownArrow:
+                    worm.Clear();
                     worm.DX = 0;
                     worm.DY = 1;
+                    worm.Draw();
+                    wall.Draw();
                     break;
                 case ConsoleKey.LeftArrow:
+                    worm.Clear();
                     worm.DX = -1;
                     worm.DY = 0;
+                    worm.Draw();
+                    wall.Draw();
                     break;
                 case ConsoleKey.RightArrow:
+                    worm.Clear();
                     worm.DX = 1;
                     worm.DY = 0;
+                    worm.Draw();
+                    wall.Draw();
                     break;
                 case ConsoleKey.Escape:
+                    Environment.Exit(0);
+                    break;
+                case ConsoleKey.F2:
+                    worm.Save();
+                    food.Save();
+                    break;
+                case ConsoleKey.F1:
+                    worm = worm.Load() as Worm;
+                    food = food.Load() as Food;
                     break;
             }
         }

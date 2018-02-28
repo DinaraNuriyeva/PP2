@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\PP2\PP2\Snakee\Snakee\bin\Debug\Snakee.exe.config
+C:\Users\Admin\Documents\PP2\PP2\Snakee\Snakee\bin\Debug\Snakee.exe
+C:\Users\Admin\Documents\PP2\PP2\Snakee\Snakee\bin\Debug\Snakee.pdb
+C:\Users\Admin\Documents\PP2\PP2\Snakee\Snakee\obj\Debug\Snakee.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PP2\PP2\Snakee\Snakee\obj\Debug\Snakee.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\PP2\PP2\Snakee\Snakee\obj\Debug\Snakee.exe
+C:\Users\Admin\Documents\PP2\PP2\Snakee\Snakee\obj\Debug\Snakee.pdb

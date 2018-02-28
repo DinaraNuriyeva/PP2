@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\far2\Complexx\bin\Debug\Complexx.exe.config
+C:\Users\Admin\source\repos\far2\Complexx\bin\Debug\Complexx.exe
+C:\Users\Admin\source\repos\far2\Complexx\bin\Debug\Complexx.pdb
+C:\Users\Admin\source\repos\far2\Complexx\obj\Debug\Complexx.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\repos\far2\Complexx\obj\Debug\Complexx.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\far2\Complexx\obj\Debug\Complexx.exe
+C:\Users\Admin\source\repos\far2\Complexx\obj\Debug\Complexx.pdb
+C:\Users\Admin\Documents\PP2\PP2\Complexx\bin\Debug\Complexx.exe.config
+C:\Users\Admin\Documents\PP2\PP2\Complexx\bin\Debug\Complexx.exe
+C:\Users\Admin\Documents\PP2\PP2\Complexx\bin\Debug\Complexx.pdb
+C:\Users\Admin\Documents\PP2\PP2\Complexx\obj\Debug\Complexx.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\PP2\PP2\Complexx\obj\Debug\Complexx.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\PP2\PP2\Complexx\obj\Debug\Complexx.exe
+C:\Users\Admin\Documents\PP2\PP2\Complexx\obj\Debug\Complexx.pdb

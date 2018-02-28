@@ -10,17 +10,10 @@ namespace snake
 {
     class Menu
     {
-       /* enum List
-        {
-            NewGame,
-            LoadLevel, 
-            SaveGame,
-            Settings,
-            Exit
-        }*/
+     
         public string[] items = { "New Game", "Load Level", "Save Game", "Settings", "Exit" };
         int SelectdItemIndex = 0;
-       // public string[] itemsInSettings = { "Speed=200", "Speed=300","Speed=400" };
+       
         void NewGame()
         {
             

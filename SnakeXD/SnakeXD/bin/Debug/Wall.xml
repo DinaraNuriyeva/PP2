@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Wall xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <sign>35</sign>
+  <points>
+    <Point>
+      <x>2</x>
+      <y>3</y>
+    </Point>
+    <Point>
+      <x>2</x>
+      <y>31</y>
+    </Point>
+    <Point>
+      <x>23</x>
+      <y>3</y>
+    </Point>
+    <Point>
+      <x>2</x>
+      <y>35</y>
+    </Point>
+  </points>
+</Wall>
